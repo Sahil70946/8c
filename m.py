@@ -6,7 +6,7 @@ import datetime
 import os
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('6838193855:AAHi1KDZv6Xgz_9yONP_dpF_TlrHcNQ03EU')
+bot = telebot.TeleBot('7456621495:AAFis7aKTDQR6kHV0AgMIWVqJesYaKKz4Dw')
 
 # Admin user IDs
 admin_id = {"6512242172", "", ""}
@@ -228,8 +228,8 @@ def handle_bgmi(message):
             target = command[1]
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
-            if time > 201:
-                response = "ᴇʀʀᴏʀ: ᴍᴀx ᴀᴛᴛᴀᴄᴋ sᴇᴄᴏɴᴅ 200sᴇᴄ ❌."
+            if time > 301:
+                response = "ᴇʀʀᴏʀ: ᴍᴀx ᴀᴛᴛᴀᴄᴋ sᴇᴄᴏɴᴅ 300sᴇᴄ ❌."
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
